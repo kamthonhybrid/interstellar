@@ -1,10 +1,10 @@
 steps:
 - name: 'gcr.io/cloud-builders/npm'
   args: ['install']
-options:
-  logging: CLOUD_LOGGING_ONLY  
 - name: 'gcr.io/cloud-builders/npm'
   args: ['test']
 - name: "gcr.io/cloud-builders/gcloud"
   args: ["app", "deploy"]
+options:
+  logging: CLOUD_LOGGING_ONLY  
 timeout: "1600s"
