@@ -12,6 +12,7 @@
     "noImplicitAny": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
+    "moduleResolution": "bundler",
     "skipLibCheck": true,
     "pretty": true
   },
