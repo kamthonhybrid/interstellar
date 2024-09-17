@@ -1,0 +1,12 @@
+{
+    "0": "Success",
+    "101": "User not found",
+    "102": "Sign verification failed",
+    "103": "No auth token, access denied",
+    "104": "Token verification failed, authorization denied",
+    "105": "Invalid parameters",
+    "106": "Wrong API Key",
+
+    "201": "Data not found",
+    "202": "Unable to process request, please try again"
+}

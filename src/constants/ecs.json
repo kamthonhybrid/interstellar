@@ -1,0 +1,23 @@
+{
+    "ecs_base_url": "https://api.eas.banpunext.dev",
+    "ecs_token_url" : "/user/login",
+    "ecs_user": "admin",
+    "ecs_password": "ssss;1234",
+    "ecs_api_key": "509dd374c03b47148cff47fde3e97259",
+    "url_ecs_site_list": "/device/sitelist",
+    "url_energy_flow": "/device/en_flow_diagram?site_id=",
+    "url_ecs_site_info": "/web/siteinfo_id?site_id=",
+    "url_ecs_site_info_all": "/web/siteinfo_all",
+    "url_ecs_device_list": "/device/devicelist?site_id=[SiteID]&device_id=[DeviceID]",
+    "url_ecs_lastest": "/device/getlatest?site_id=[SiteID]",
+    "url_ecs_device_history": "/device/raw?deviceId=[DeviceID]&startTime=[StartTime]&endTime=[EndTime]",
+    "url_ecs_summary_power": "/device/summarypower?site_id=[SiteID]&date=[Date]",
+    "url_ecs_energy_comparison": "/device/daily_sum_en?site_id=[SiteID]&years=[Year],2024&month=[Month]",
+    "url_ecs_power_distribution": "/device/boxplot?site_id=[SiteID]&year=[Year]",
+    "url_ecs_daily_analysis": "/device/daily_analysis?date=[Date]&deviceId=[DeviceID]&params=[Params]",
+    "url_ecs_daily_dc_power": "/device/daily_dc_power?date=[Date]&deviceId=[DeviceID]&dc_param=[DcParams]",
+    "url_ecs_temperature": "/device/daily_dc_temperature?date=[Date]&deviceId=[DeviceID]&dc_param=[DcParams]&emi_deviceId=[EmiID]",
+    "url_ecs_simulation": "/simulator/lastprocess?site_id=[SiteID]",
+    "url_ecs_prediction": "/web/getprdiction?site_id=[SiteID]"
+
+}
